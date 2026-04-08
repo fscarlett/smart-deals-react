@@ -1,5 +1,5 @@
 :root {
-  --text: #6b6375;
+  --text: #1b1325;
   --text-h: #08060d;
   --bg: #fff;
   --border: #e5e4e7;
@@ -11,8 +11,8 @@
   --shadow:
     rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
 
-  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
-  --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --sans: 'Noto Sans', system-ui, sans-serif;
+  --heading: 'Noto Sans', system-ui, sans-serif;
   --mono: ui-monospace, Consolas, monospace;
 
   font: 18px/145% var(--sans);
@@ -51,8 +51,8 @@
 } */
 
 #root {
-  width: 1126px;
-  max-width: 100%;
+  width: 100%;
+  max-width: 1550px;
   margin: 0 auto;
   text-align: center;
   /* border-inline: 1px solid var(--border); */
@@ -70,11 +70,6 @@ main {
   padding: 8px 8px;
 }
 
-header {
-  padding: 16px 8px;
-  border-bottom: 1px solid var(--border);
-}
-
 section {
   padding: 32px 0;
   border-bottom: 1px solid var(--border);
@@ -83,16 +78,16 @@ section {
 h1,
 h2 {
   font-family: var(--heading);
-  font-weight: 500;
+  font-weight: 700;
   color: var(--text-h);
 }
 
 h1 {
-  font-size: 56px;
+  font-size: 32px;
   letter-spacing: -1.68px;
-  margin: 32px 0;
-  @media (max-width: 1024px) {
-    font-size: 36px;
+  margin: 24px 0;
+  @media (max-width: 768px) {
+    font-size: 24px;
     margin: 20px 0;
   }
 }
