@@ -1,3 +1,5 @@
+@import 'tailwindcss';
+
 :root {
   --text: #1b1325;
   --text-h: #08060d;
@@ -52,7 +54,7 @@
 
 #root {
   width: 100%;
-  max-width: 1550px;
+  /* max-width: 1550px; */
   margin: 0 auto;
   text-align: center;
   /* border-inline: 1px solid var(--border); */
