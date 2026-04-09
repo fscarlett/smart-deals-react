@@ -20,13 +20,29 @@ function Header() {
       </div>
       <div className='cat-nav w-full bg-white border-b border-t border-gray-200'>
         <div className='h-full w-full mx-auto flex items-center justify-center'>
-          <div className='cat-nav-container max-w-[1400px] w-full flex items-center justify-between h-full py-3 '>
-            <div className='link-wrapper h-full flex flex-1 items-center justify-between'>
-              <div className='cat-nav-item'>cat 1</div>
-              <div className='cat-nav-item'>cat 2</div>
-              <div className='cat-nav-item'>cat 3</div>
-              <div className='cat-nav-item'>cat 4</div>
-              <div className='cat-nav-item'>SEARCH</div>
+          <div className='cat-nav-container max-w-[1400px] w-full flex items-center justify-between h-full'>
+            <div
+              className={`${styles.link_wrapper} h-full flex flex-1 items-center justify-between`}
+            >
+              <a href='#' className={`${styles.cat_nav_item}`}>
+                cat all
+              </a>
+              <a href='#' className={`${styles.cat_nav_item}`}>
+                cat 1
+              </a>
+              <a href='#' className={`${styles.cat_nav_item}`}>
+                cat 2
+              </a>
+              <a href='#' className={`${styles.cat_nav_item}`}>
+                cat 3
+              </a>
+              <a href='#' className={`${styles.cat_nav_item}`}>
+                cat 4
+              </a>
+              <a href='#' className={`${styles.cat_nav_item}`}>
+                get extension
+              </a>
+              <div className={`${styles.cat_nav_search}`}>SEARCH</div>
             </div>
           </div>
         </div>

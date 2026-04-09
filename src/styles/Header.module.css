@@ -7,3 +7,17 @@
   align-items: center;
   justify-content: space-between;
 }
+
+.link_wrapper {
+  height: 64px;
+}
+
+.cat_nav_item {
+  padding: 18px 12px;
+  /* color: blue; */
+}
+
+.cat_nav_item:hover {
+  color: blue;
+  border-bottom: 2px solid blue;
+}
