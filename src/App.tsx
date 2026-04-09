@@ -5,10 +5,27 @@ function App() {
   return (
     <>
       <main>
-        <section>hero</section>
-        <section>deals</section>
-        <section>categories</section>
-        <section>for you</section>
+        <section>hero carousel</section>
+        <section>featured deals slider</section>
+        <section>get the app ad</section>
+
+        <section>deals for you 6x2</section>
+        <section>category deals slider</section>
+
+        <section>more deals for you 6x2</section>
+        <section>category deals slider</section>
+
+        <section>more deals for you 6x2</section>
+        <section>category deals slider</section>
+
+        <section>more deals for you 6x2</section>
+        <section>get the app ad</section>
+        <section>category deals slider</section>
+
+        <section>more deals for you HUGE</section>
+        <section>get the app ad</section>
+        <section>more deals for you 6x2</section>
+        <section>load more deals button</section>
       </main>
     </>
   )
