@@ -5,6 +5,7 @@ import InfoModal from './components/InfoModal'
 import FeaturedDealsSection from './components/FeaturedDealsSection'
 import PromoBanner from './components/PromoBanner'
 import DealsSection from './components/DealsSection'
+import DealsCategorySection from './components/DealsCategorySection'
 
 function App() {
   return (
@@ -20,21 +21,25 @@ function App() {
 
         <div className={styles.home_deals_wrapper}>
           <DealsSection />
-          <section>category deals slider</section>
+          <DealsCategorySection />
 
-          <section>more deals for you 6x2</section>
-          <section>category deals slider</section>
+          <DealsSection />
+          <DealsCategorySection />
 
-          <section>more deals for you 6x2</section>
-          <section>category deals slider</section>
+          <DealsSection />
+          <DealsCategorySection />
 
-          <section>more deals for you 6x2</section>
-          <section>get the app ad</section>
-          <section>category deals slider</section>
+          <DealsSection />
+          <PromoBanner />
+          <DealsCategorySection />
 
-          <section>more deals for you HUGE</section>
-          <section>get the app ad</section>
-          <section>more deals for you 6x2</section>
+          <DealsSection />
+          <DealsSection />
+          <DealsSection />
+          <DealsSection />
+
+          <PromoBanner />
+          <DealsSection />
           <section>load more deals button</section>
         </div>
       </main>
