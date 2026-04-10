@@ -1,0 +1,22 @@
+.home_top_group {
+  width: 100%;
+  /* max-width: 1400px; */
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.home_deals_wrapper {
+  width: 100%;
+  max-width: 1400px;
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f5ff;
+}

@@ -1,23 +1,25 @@
 import { useState } from 'react'
-import './App.css'
+import styles from './styles/Home.module.css'
 import HeroSection from './components/HeroSection'
 import InfoModal from './components/InfoModal'
 import FeaturedDealsSection from './components/FeaturedDealsSection'
+import PromoBanner from './components/PromoBanner'
+import DealsSection from './components/DealsSection'
 
 function App() {
   return (
     <>
       <main>
-        <div className='home_top_group'>
+        <div className={styles.home_top_group}>
           <HeroSection />
           <InfoModal />
           <FeaturedDealsSection />
         </div>
 
-        <section>get the app ad</section>
+        <PromoBanner />
 
-        <div className='home_deals_wrapper'>
-          <section>deals for you 6x2</section>
+        <div className={styles.home_deals_wrapper}>
+          <DealsSection />
           <section>category deals slider</section>
 
           <section>more deals for you 6x2</section>
