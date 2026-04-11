@@ -20,7 +20,7 @@ function App() {
         <PromoBanner />
 
         <div className={styles.home_deals_wrapper}>
-          <DealsSection />
+          <DealsSection firstItem={true} />
           <DealsCategorySection />
 
           <DealsSection />
