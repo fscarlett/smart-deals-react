@@ -52,6 +52,18 @@
   }
 } */
 
+/* chatgpt  colors: */
+/* Deep Smart Blue	#1D4ED8	Dark backgrounds
+IQ Smart Blue	#2F6BFF	Primary brand color
+Soft Blue	#DCE7FF	UI cards / highlights
+Deal Green	#22C55E	Price drops
+Savings Mint	#BBF7D0	deal backgrounds
+Smart Orange	#FF7A1A	flash sales
+Light Orange	#FFE4CC	promo highlights
+Dark Slate	#1F2937	main text
+Cool Gray	#6B7280	secondary text
+Soft Background	#F5F7FB	app background */
+
 #root {
   width: 100%;
   /* max-width: 1550px; */
